@@ -18,9 +18,9 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7025826430:AAFtNhgFpTjh3eB6k2flrelKSPB5Da5WX6I")
-APP_ID = int(os.environ.get("APP_ID", "26907473")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "2ab9320855b340fb5fd516caba2e2700") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8100267218:AAHmC8Sst8j6514geSP65XLCRyI23Qr-8qM")
+APP_ID = int(os.environ.get("APP_ID", "29483517")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002647010769")) #Your db channel Id
@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1720910522")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anixanimeworld:syxHwZxApNwmimX1@cluster0.pja0puc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://user1:abhinai.2244@cluster0.7oaqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo567")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Lokii_Tenno")
